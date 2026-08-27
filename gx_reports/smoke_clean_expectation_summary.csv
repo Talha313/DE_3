@@ -1,0 +1,17 @@
+expectation_type,success,unexpected_count,unexpected_percent
+expect_column_to_exist,True,,
+expect_column_to_exist,True,,
+expect_column_to_exist,True,,
+expect_column_to_exist,True,,
+expect_column_to_exist,True,,
+expect_column_to_exist,True,,
+expect_column_to_exist,True,,
+expect_column_values_to_be_between,True,0.0,0.0
+expect_column_values_to_be_between,True,0.0,0.0
+expect_column_values_to_be_between,True,0.0,0.0
+expect_column_values_to_be_in_set,True,0.0,0.0
+expect_column_values_to_be_in_set,True,0.0,0.0
+expect_column_values_to_be_in_set,True,0.0,0.0
+expect_column_values_to_be_in_set,True,0.0,0.0
+expect_column_values_to_be_unique,True,0.0,0.0
+expect_column_values_to_not_be_null,True,0.0,0.0
