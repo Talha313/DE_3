@@ -1,0 +1,488 @@
+[
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_to_exist",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "year"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {},
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_to_exist",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "engine_cc"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {},
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_to_exist",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "mileage_km"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {},
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_to_exist",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "transmission"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {},
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_to_exist",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "fuel_type"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {},
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_to_exist",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "body_type"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {},
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_to_exist",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "city"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {},
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "year",
+        "min_value": 1990.0,
+        "max_value": 2026.0
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 0.0,
+      "unexpected_percent_nonmissing": 0.0,
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "engine_cc",
+        "min_value": 600.0,
+        "max_value": 8000.0
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 0.0,
+      "unexpected_percent_nonmissing": 0.0,
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "mileage_km",
+        "min_value": 0.0,
+        "max_value": 1500000.0
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 0.0,
+      "unexpected_percent_nonmissing": 0.0,
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "transmission",
+        "value_set": [
+          "Manual",
+          "Automatic",
+          "manual",
+          "automatic"
+        ]
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 0.0,
+      "unexpected_percent_nonmissing": 0.0,
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "fuel_type",
+        "value_set": [
+          "Petrol",
+          "Diesel",
+          "Hybrid",
+          "petrol",
+          "diesel",
+          "hybrid",
+          "CNG"
+        ]
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 0.0,
+      "unexpected_percent_nonmissing": 0.0,
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": false,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "body_type",
+        "value_set": [
+          "Sedan",
+          "SUV",
+          "Hatchback",
+          "Coupe",
+          "Crossover",
+          "Van",
+          "Pickup"
+        ]
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 492,
+      "unexpected_percent": 24.6,
+      "partial_unexpected_list": [
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv",
+        "Suv"
+      ],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 24.6,
+      "unexpected_percent_nonmissing": 24.6,
+      "partial_unexpected_counts": [
+        {
+          "value": "Suv",
+          "count": 20
+        }
+      ],
+      "partial_unexpected_index_list": [
+        0,
+        8,
+        15,
+        21,
+        26,
+        28,
+        41,
+        44,
+        50,
+        55,
+        59,
+        61,
+        70,
+        73,
+        74,
+        75,
+        76,
+        81,
+        84,
+        88
+      ]
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_in_set",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "city",
+        "value_set": [
+          "Lahore",
+          "Karachi",
+          "Islamabad",
+          "Rawalpindi",
+          "Faisalabad",
+          "Peshawar",
+          "Multan"
+        ]
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 0.0,
+      "unexpected_percent_nonmissing": 0.0,
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "listing_id"
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unexpected_percent_total": 0.0,
+      "unexpected_percent_nonmissing": 0.0,
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  },
+  {
+    "success": true,
+    "expectation_config": {
+      "type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "batch_id": "cars_pandas-cars_asset",
+        "column": "mileage_km",
+        "mostly": 0.95
+      },
+      "meta": {},
+      "severity": "critical"
+    },
+    "result": {
+      "element_count": 2000,
+      "unexpected_count": 0,
+      "unexpected_percent": 0.0,
+      "partial_unexpected_list": [],
+      "partial_unexpected_counts": [],
+      "partial_unexpected_index_list": []
+    },
+    "meta": {},
+    "exception_info": {
+      "raised_exception": false,
+      "exception_traceback": null,
+      "exception_message": null
+    }
+  }
+]

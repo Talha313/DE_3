@@ -1,0 +1,884 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "year"
+        },
+        "meta": {},
+        "id": "c908c87b-8fee-4a39-b5f9-aaac7b6706e4",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "year",
+          "min_value": 1990.0,
+          "max_value": 2026.0
+        },
+        "meta": {},
+        "id": "d0340472-54c8-47ba-a947-2364e8f24e10",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 41,
+        "unexpected_percent": 2.0,
+        "partial_unexpected_list": [
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035,
+          2035
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 2.0,
+        "unexpected_percent_nonmissing": 2.0,
+        "partial_unexpected_counts": [
+          {
+            "value": 2035,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          3,
+          55,
+          90,
+          146,
+          158,
+          282,
+          364,
+          384,
+          432,
+          454,
+          471,
+          481,
+          618,
+          696,
+          710,
+          741,
+          755,
+          806,
+          815,
+          869
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "engine_cc"
+        },
+        "meta": {},
+        "id": "25cddaff-4054-4721-9d8d-a6ae1c9bc9c8",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "engine_cc",
+          "min_value": 600.0,
+          "max_value": 8000.0
+        },
+        "meta": {},
+        "id": "3dfbfafd-e1bf-4582-8212-9b5093896835",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "mileage_km"
+        },
+        "meta": {},
+        "id": "dbc2f5fd-2fbd-4a9a-8637-9703de09f8bb",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "mileage_km",
+          "min_value": 0.0,
+          "max_value": 1500000.0
+        },
+        "meta": {},
+        "id": "a204050e-66e0-40aa-b3ea-cf20cb8ffeac",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 20,
+        "unexpected_percent": 1.0266940451745379,
+        "partial_unexpected_list": [
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0,
+          -1000.0
+        ],
+        "missing_count": 102,
+        "missing_percent": 4.975609756097561,
+        "unexpected_percent_total": 0.975609756097561,
+        "unexpected_percent_nonmissing": 1.0266940451745379,
+        "partial_unexpected_counts": [
+          {
+            "value": -1000.0,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          71,
+          190,
+          308,
+          367,
+          368,
+          534,
+          583,
+          637,
+          695,
+          786,
+          792,
+          863,
+          871,
+          891,
+          984,
+          1339,
+          1382,
+          1681,
+          1955,
+          1963
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "mileage_km",
+          "mostly": 0.95
+        },
+        "meta": {},
+        "id": "57b16f4c-e0ab-404e-812a-bffc592e41d7",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 102,
+        "unexpected_percent": 4.975609756097561,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          },
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          1,
+          10,
+          58,
+          110,
+          164,
+          184,
+          185,
+          196,
+          204,
+          263,
+          266,
+          273,
+          285,
+          289,
+          302,
+          315,
+          326,
+          335,
+          338,
+          340
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "transmission"
+        },
+        "meta": {},
+        "id": "0725e67b-8750-43fc-bdd2-e2cb5c27016d",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "transmission",
+          "value_set": [
+            "Manual",
+            "Automatic",
+            "manual",
+            "automatic"
+          ]
+        },
+        "meta": {},
+        "id": "a9fd8a78-409d-4aa1-889e-1e3199655d64",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 26,
+        "unexpected_percent": 1.2682926829268293,
+        "partial_unexpected_list": [
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul",
+          "manul"
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 1.2682926829268293,
+        "unexpected_percent_nonmissing": 1.2682926829268293,
+        "partial_unexpected_counts": [
+          {
+            "value": "manul",
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          25,
+          169,
+          207,
+          217,
+          263,
+          329,
+          334,
+          653,
+          709,
+          786,
+          815,
+          828,
+          952,
+          1038,
+          1059,
+          1176,
+          1343,
+          1397,
+          1405,
+          1500
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "fuel_type"
+        },
+        "meta": {},
+        "id": "0cba45c4-a104-44b9-a295-5e2d25c0046b",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "fuel_type",
+          "value_set": [
+            "Petrol",
+            "Diesel",
+            "Hybrid",
+            "petrol",
+            "diesel",
+            "hybrid",
+            "CNG"
+          ]
+        },
+        "meta": {},
+        "id": "0a9309e1-5e4b-4659-aa27-0c56d0f8b58f",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "body_type"
+        },
+        "meta": {},
+        "id": "5c84d019-834a-4534-b3c8-562c999b8f54",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "body_type",
+          "value_set": [
+            "Sedan",
+            "SUV",
+            "Hatchback",
+            "Coupe",
+            "Crossover",
+            "Van",
+            "Pickup"
+          ]
+        },
+        "meta": {},
+        "id": "eec1a3c5-5f81-4cb1-a815-21c73f00baf8",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "city"
+        },
+        "meta": {},
+        "id": "f6c7bb0b-bd1c-4994-ac71-7dc5bd2a96e5",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "city",
+          "value_set": [
+            "Lahore",
+            "Karachi",
+            "Islamabad",
+            "Rawalpindi",
+            "Faisalabad",
+            "Peshawar",
+            "Multan"
+          ]
+        },
+        "meta": {},
+        "id": "d2f952b4-e3db-43bf-8a43-579a9c7372f8",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "listing_id"
+        },
+        "meta": {},
+        "id": "9156f6d9-6d07-4e65-bf3d-a75131a25525",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 2050,
+        "unexpected_count": 100,
+        "unexpected_percent": 4.878048780487805,
+        "partial_unexpected_list": [
+          "3319957d-88e7-45b4-aa3c-626d8873ecff",
+          "94c54bc6-6e9e-45f8-aa20-9c0a882ba6c3",
+          "02cacc7e-6514-4ce0-8e0b-77e9ac1469e6",
+          "40962b2e-327c-4990-a0e3-f314991b1c9d",
+          "ccc2a2b9-3c32-4e22-a776-677820739e8a",
+          "09263624-3982-40b6-b34c-0ff1ea7ebf1b",
+          "b3ee1ca2-55ad-4825-9672-7dfd49273dc9",
+          "9c5989a0-1858-4930-8a86-af9e52377d1b",
+          "3c595b88-cd8e-494a-83f1-8e6b2ed5c235",
+          "af4100f2-38b4-4420-b135-23368540b457",
+          "d1f390de-4c54-4154-9f85-14d766c3b9ad",
+          "7fda817c-068f-4cd8-a65b-a27783a9afba",
+          "2f5b8ef6-7e82-4817-84bb-0b4210274a56",
+          "73778c9b-835c-4b3e-8040-009c2664a026",
+          "e3632222-50fb-4968-ba8c-bd569171c41f",
+          "8b615df9-0928-45f1-af08-dc05f2a0c1ed",
+          "0fa74bbf-29c0-470d-8032-205c49d3873a",
+          "fa7ef102-4c79-42fc-b1a3-7d024b876041",
+          "16b2c286-0091-45b6-9305-92154afbf22b",
+          "db77a1e1-1745-47b9-bff8-ef4054b58546"
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 4.878048780487805,
+        "unexpected_percent_nonmissing": 4.878048780487805,
+        "partial_unexpected_counts": [
+          {
+            "value": "02cacc7e-6514-4ce0-8e0b-77e9ac1469e6",
+            "count": 1
+          },
+          {
+            "value": "09263624-3982-40b6-b34c-0ff1ea7ebf1b",
+            "count": 1
+          },
+          {
+            "value": "0fa74bbf-29c0-470d-8032-205c49d3873a",
+            "count": 1
+          },
+          {
+            "value": "16b2c286-0091-45b6-9305-92154afbf22b",
+            "count": 1
+          },
+          {
+            "value": "2f5b8ef6-7e82-4817-84bb-0b4210274a56",
+            "count": 1
+          },
+          {
+            "value": "3319957d-88e7-45b4-aa3c-626d8873ecff",
+            "count": 1
+          },
+          {
+            "value": "3c595b88-cd8e-494a-83f1-8e6b2ed5c235",
+            "count": 1
+          },
+          {
+            "value": "40962b2e-327c-4990-a0e3-f314991b1c9d",
+            "count": 1
+          },
+          {
+            "value": "73778c9b-835c-4b3e-8040-009c2664a026",
+            "count": 1
+          },
+          {
+            "value": "7fda817c-068f-4cd8-a65b-a27783a9afba",
+            "count": 1
+          },
+          {
+            "value": "8b615df9-0928-45f1-af08-dc05f2a0c1ed",
+            "count": 1
+          },
+          {
+            "value": "94c54bc6-6e9e-45f8-aa20-9c0a882ba6c3",
+            "count": 1
+          },
+          {
+            "value": "9c5989a0-1858-4930-8a86-af9e52377d1b",
+            "count": 1
+          },
+          {
+            "value": "af4100f2-38b4-4420-b135-23368540b457",
+            "count": 1
+          },
+          {
+            "value": "b3ee1ca2-55ad-4825-9672-7dfd49273dc9",
+            "count": 1
+          },
+          {
+            "value": "ccc2a2b9-3c32-4e22-a776-677820739e8a",
+            "count": 1
+          },
+          {
+            "value": "d1f390de-4c54-4154-9f85-14d766c3b9ad",
+            "count": 1
+          },
+          {
+            "value": "db77a1e1-1745-47b9-bff8-ef4054b58546",
+            "count": 1
+          },
+          {
+            "value": "e3632222-50fb-4968-ba8c-bd569171c41f",
+            "count": 1
+          },
+          {
+            "value": "fa7ef102-4c79-42fc-b1a3-7d024b876041",
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "cars_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 16,
+    "successful_expectations": 12,
+    "unsuccessful_expectations": 4,
+    "success_percent": 75.0
+  },
+  "meta": {
+    "great_expectations_version": "1.15.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260408T210430.061450Z",
+      "pandas_data_fingerprint": "418ce6dea57fd9a581a4bb2e698c86fc"
+    },
+    "active_batch_definition": {
+      "datasource_name": "cars_pandas",
+      "data_connector_name": "fluent",
+      "data_asset_name": "cars_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "3a1b116f-bcc2-434f-b930-0db9341a6614",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-04-09T02:04:30.109013+05:00"
+    },
+    "validation_time": "2026-04-08T21:04:30.109013+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}
