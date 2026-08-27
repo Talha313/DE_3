@@ -1,0 +1,9 @@
+order_id,customer_id,order_date,ship_date,status,quantity,unit_price,discount_rate,line_total,country_code,email,shipping_after_order_rule,line_total_matches_rule
+1001,C001,2026-02-01,2026-02-02,PLACED,2.0,120.0,0.1,240.0,PK,a@example.com,True,False
+1002,C002,2026-02-01,2026-02-02,SHIPPED,1.0,80.0,0.0,80.0,PK,b@example.com,True,True
+1003,C003,2026-02-02,2026-02-01,DELIVERED,-3.0,50.0,0.05,-150.0,US,c@example.com,False,False
+1003,C004,2026-02-03,2026-02-05,RETURNED,4.0,35.0,0.2,140.0,US,d@example.com,True,False
+1005,,2026-02-03,2026-02-04,UNKNOWN,2.0,5000.0,1.2,100.0,PAK,,True,False
+1006,C006,2026-02-04,2026-02-04,SHIPPED,1.0,95.0,0.15,95.0,AE,f@example.com,True,False
+1007,C007,2026-02-05,2026-02-06,DELIVERED,3.0,60.0,0.0,180.0,GB,g@example.com,True,True
+1008,C008,2026-02-05,2026-02-06,PLACED,2.0,75.0,0.5,999.0,PK,h@example.com,True,False
