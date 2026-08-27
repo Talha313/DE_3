@@ -1,0 +1,684 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "body_type",
+          "value_set": [
+            "Sedan",
+            "SUV",
+            "Hatchback",
+            "Coupe",
+            "Crossover",
+            "Van",
+            "Pickup"
+          ],
+          "batch_id": "cars_pandas-cars_asset"
+        },
+        "meta": {},
+        "id": "677249a5-ceb3-4814-b518-c514a27797f4",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "MetricConfigurationID(metric_name='column_values.in_set.condition', metric_domain_kwargs_id='5667c5e67a65e70b0525d3b1c2f74f69', metric_value_kwargs_id=\"value_set=['Sedan', 'SUV', 'Hatchback', 'Coupe', 'Crossover', 'Van', 'Pickup']\")": {
+          "exception_traceback": "Traceback (most recent call last):\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/execution_engine/execution_engine.py\", line 577, in _process_direct_and_bundled_metric_computation_configurations\n    metric_computation_configuration.metric_fn(  # type: ignore[misc] # F not callable\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/metric_provider.py\", line 99, in inner_func\n    return metric_fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/map_metric_provider/column_condition_partial.py\", line 96, in inner_func\n    metric_domain_kwargs = get_dbms_compatible_metric_domain_kwargs(\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/util.py\", line 757, in get_dbms_compatible_metric_domain_kwargs\n    column_name: str | sqlalchemy.quoted_name = get_dbms_compatible_column_names(\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/util.py\", line 827, in get_dbms_compatible_column_names\n    _verify_column_names_exist_and_get_normalized_typed_column_names_map(\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/util.py\", line 912, in _verify_column_names_exist_and_get_normalized_typed_column_names_map\n    raise gx_exceptions.InvalidMetricAccessorDomainKwargsKeyError(\ngreat_expectations.exceptions.exceptions.InvalidMetricAccessorDomainKwargsKeyError: Error: The column \"body_type\" in BatchData does not exist.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/validator/validation_graph.py\", line 290, in _resolve\n    self._execution_engine.resolve_metrics(\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/execution_engine/execution_engine.py\", line 294, in resolve_metrics\n    return self._process_direct_and_bundled_metric_computation_configurations(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/execution_engine/execution_engine.py\", line 582, in _process_direct_and_bundled_metric_computation_configurations\n    raise gx_exceptions.MetricResolutionError(\ngreat_expectations.exceptions.exceptions.MetricResolutionError: Error: The column \"body_type\" in BatchData does not exist.\n",
+          "exception_message": "Error: The column \"body_type\" in BatchData does not exist.",
+          "raised_exception": true
+        },
+        "MetricConfigurationID(metric_name='column_values.nonnull.condition', metric_domain_kwargs_id='5667c5e67a65e70b0525d3b1c2f74f69', metric_value_kwargs_id=())": {
+          "exception_traceback": "Traceback (most recent call last):\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/execution_engine/execution_engine.py\", line 577, in _process_direct_and_bundled_metric_computation_configurations\n    metric_computation_configuration.metric_fn(  # type: ignore[misc] # F not callable\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/metric_provider.py\", line 99, in inner_func\n    return metric_fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/map_metric_provider/column_condition_partial.py\", line 96, in inner_func\n    metric_domain_kwargs = get_dbms_compatible_metric_domain_kwargs(\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/util.py\", line 757, in get_dbms_compatible_metric_domain_kwargs\n    column_name: str | sqlalchemy.quoted_name = get_dbms_compatible_column_names(\n                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/util.py\", line 827, in get_dbms_compatible_column_names\n    _verify_column_names_exist_and_get_normalized_typed_column_names_map(\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/expectations/metrics/util.py\", line 912, in _verify_column_names_exist_and_get_normalized_typed_column_names_map\n    raise gx_exceptions.InvalidMetricAccessorDomainKwargsKeyError(\ngreat_expectations.exceptions.exceptions.InvalidMetricAccessorDomainKwargsKeyError: Error: The column \"body_type\" in BatchData does not exist.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/validator/validation_graph.py\", line 290, in _resolve\n    self._execution_engine.resolve_metrics(\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/execution_engine/execution_engine.py\", line 294, in resolve_metrics\n    return self._process_direct_and_bundled_metric_computation_configurations(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/junaidtariq/Downloads/MS AI DL/DE_Assignment_3/.venv/lib/python3.11/site-packages/great_expectations/execution_engine/execution_engine.py\", line 582, in _process_direct_and_bundled_metric_computation_configurations\n    raise gx_exceptions.MetricResolutionError(\ngreat_expectations.exceptions.exceptions.MetricResolutionError: Error: The column \"body_type\" in BatchData does not exist.\n",
+          "exception_message": "Error: The column \"body_type\" in BatchData does not exist.",
+          "raised_exception": true
+        }
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "year"
+        },
+        "meta": {},
+        "id": "ccfcd7ad-c762-4988-85e2-606760c6eef3",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "year",
+          "min_value": 1990.0,
+          "max_value": 2026.0
+        },
+        "meta": {},
+        "id": "e41db377-bd38-4bb1-abca-efa489a56c12",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 3786,
+        "missing_percent": 6.076851465442521,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "engine_cc"
+        },
+        "meta": {},
+        "id": "91855776-2667-4f23-a759-8d7b4776304a",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "engine_cc",
+          "min_value": 600.0,
+          "max_value": 8000.0
+        },
+        "meta": {},
+        "id": "283529a7-9d02-4ac3-9957-b8cd9d297ed6",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 178,
+        "unexpected_percent": 0.2857188718920047,
+        "partial_unexpected_list": [
+          12905.0,
+          150.0,
+          77.4,
+          60.0,
+          60.0,
+          539.0,
+          60.0,
+          120.0,
+          93.0,
+          66.0,
+          400.0,
+          13000.0,
+          75.0,
+          60.0,
+          123.0,
+          82.0,
+          100.0,
+          240.0,
+          230.0,
+          95.0
+        ],
+        "missing_count": 3,
+        "missing_percent": 0.004815254726975057,
+        "unexpected_percent_total": 0.28570511380052005,
+        "unexpected_percent_nonmissing": 0.2857188718920047,
+        "partial_unexpected_counts": [
+          {
+            "value": 60.0,
+            "count": 4
+          },
+          {
+            "value": 66.0,
+            "count": 1
+          },
+          {
+            "value": 75.0,
+            "count": 1
+          },
+          {
+            "value": 77.4,
+            "count": 1
+          },
+          {
+            "value": 82.0,
+            "count": 1
+          },
+          {
+            "value": 93.0,
+            "count": 1
+          },
+          {
+            "value": 95.0,
+            "count": 1
+          },
+          {
+            "value": 100.0,
+            "count": 1
+          },
+          {
+            "value": 120.0,
+            "count": 1
+          },
+          {
+            "value": 123.0,
+            "count": 1
+          },
+          {
+            "value": 150.0,
+            "count": 1
+          },
+          {
+            "value": 230.0,
+            "count": 1
+          },
+          {
+            "value": 240.0,
+            "count": 1
+          },
+          {
+            "value": 400.0,
+            "count": 1
+          },
+          {
+            "value": 539.0,
+            "count": 1
+          },
+          {
+            "value": 12905.0,
+            "count": 1
+          },
+          {
+            "value": 13000.0,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          50,
+          227,
+          1257,
+          1765,
+          1792,
+          1942,
+          2203,
+          2711,
+          2831,
+          3019,
+          3539,
+          3823,
+          3833,
+          3892,
+          5300,
+          5377,
+          6440,
+          6700,
+          7115,
+          7407
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "mileage_km"
+        },
+        "meta": {},
+        "id": "5442e36d-30ee-440a-8876-f0726c186466",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "mileage_km",
+          "min_value": 0.0,
+          "max_value": 1500000.0
+        },
+        "meta": {},
+        "id": "21122111-6d30-4d61-98c1-6868bb392793",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "mileage_km",
+          "mostly": 0.95
+        },
+        "meta": {},
+        "id": "3c249e72-783d-4703-8dfb-8c7577ec9d51",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "transmission"
+        },
+        "meta": {},
+        "id": "7eba79ce-1aa3-4ca3-99ce-0ac01f2e7491",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "transmission",
+          "value_set": [
+            "Manual",
+            "Automatic",
+            "manual",
+            "automatic"
+          ]
+        },
+        "meta": {},
+        "id": "76bd3bdf-7014-4ef5-b6ac-0a7976e6f3a0",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "fuel_type"
+        },
+        "meta": {},
+        "id": "3056b52d-127e-4805-8654-bbd9502a8669",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "fuel_type",
+          "value_set": [
+            "Petrol",
+            "Diesel",
+            "Hybrid",
+            "petrol",
+            "diesel",
+            "hybrid",
+            "CNG"
+          ]
+        },
+        "meta": {},
+        "id": "14c85ce2-e34b-46d2-a33e-4613487fbeb1",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 709,
+        "missing_percent": 1.1380052004751051,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "body_type"
+        },
+        "meta": {},
+        "id": "59410cf5-215c-4231-b1c3-9a9257115edc",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_to_exist",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "city"
+        },
+        "meta": {},
+        "id": "309d6034-c754-4a70-93fe-59aed0a93c0d",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cars_pandas-cars_asset",
+          "column": "city",
+          "value_set": [
+            "Lahore",
+            "Karachi",
+            "Islamabad",
+            "Rawalpindi",
+            "Faisalabad",
+            "Peshawar",
+            "Multan"
+          ]
+        },
+        "meta": {},
+        "id": "a0835c6c-c4d7-4882-ae17-9bef20b8280b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 62302,
+        "unexpected_count": 16640,
+        "unexpected_percent": 26.70861288562165,
+        "partial_unexpected_list": [
+          "Sadiqabad",
+          "Gujranwala",
+          "Bahawalpur",
+          "Vehari",
+          "Topi",
+          "Jhang",
+          "Gujrat",
+          "Hassan",
+          "Gujranwala",
+          "Sialkot",
+          "Khanpur",
+          "Mandi",
+          "Bahawalpur",
+          "Kharian",
+          "Bahawalpur",
+          "Sargodha",
+          "Toba",
+          "Pind",
+          "Kabirwala",
+          "Hyderabad"
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 26.70861288562165,
+        "unexpected_percent_nonmissing": 26.70861288562165,
+        "partial_unexpected_counts": [
+          {
+            "value": "Bahawalpur",
+            "count": 3
+          },
+          {
+            "value": "Gujranwala",
+            "count": 2
+          },
+          {
+            "value": "Gujrat",
+            "count": 1
+          },
+          {
+            "value": "Hassan",
+            "count": 1
+          },
+          {
+            "value": "Hyderabad",
+            "count": 1
+          },
+          {
+            "value": "Jhang",
+            "count": 1
+          },
+          {
+            "value": "Kabirwala",
+            "count": 1
+          },
+          {
+            "value": "Khanpur",
+            "count": 1
+          },
+          {
+            "value": "Kharian",
+            "count": 1
+          },
+          {
+            "value": "Mandi",
+            "count": 1
+          },
+          {
+            "value": "Pind",
+            "count": 1
+          },
+          {
+            "value": "Sadiqabad",
+            "count": 1
+          },
+          {
+            "value": "Sargodha",
+            "count": 1
+          },
+          {
+            "value": "Sialkot",
+            "count": 1
+          },
+          {
+            "value": "Toba",
+            "count": 1
+          },
+          {
+            "value": "Topi",
+            "count": 1
+          },
+          {
+            "value": "Vehari",
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          1,
+          6,
+          7,
+          14,
+          18,
+          22,
+          23,
+          24,
+          38,
+          39,
+          44,
+          49,
+          50,
+          52,
+          53,
+          57,
+          66,
+          68,
+          70,
+          71
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "cars_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 15,
+    "successful_expectations": 11,
+    "unsuccessful_expectations": 4,
+    "success_percent": 73.33333333333333
+  },
+  "meta": {
+    "great_expectations_version": "1.15.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260408T210650.482593Z",
+      "pandas_data_fingerprint": "89f0b819f9ab17778e628d52e204cfae"
+    },
+    "active_batch_definition": {
+      "datasource_name": "cars_pandas",
+      "data_connector_name": "fluent",
+      "data_asset_name": "cars_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "d4ba1c08-e499-4975-85a2-285a1b3d5f24",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-04-09T02:06:50.729625+05:00"
+    },
+    "validation_time": "2026-04-08T21:06:50.729625+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

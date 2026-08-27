@@ -1,0 +1,16 @@
+expectation_type,success,unexpected_count,unexpected_percent,partial_unexpected_list
+expect_column_to_exist,True,,,[]
+expect_column_to_exist,True,,,[]
+expect_column_to_exist,True,,,[]
+expect_column_values_to_be_of_type,True,,,[]
+expect_column_values_to_not_be_null,False,1.0,12.5,[None]
+expect_column_values_to_not_be_null,True,1.0,12.5,[None]
+expect_column_values_to_be_unique,False,2.0,25.0,"[1003, 1003]"
+expect_column_values_to_be_between,False,1.0,12.5,[-3.0]
+expect_column_values_to_be_between,False,1.0,12.5,[5000.0]
+expect_column_values_to_be_between,False,1.0,12.5,[1.2]
+expect_table_row_count_to_be_between,True,,,[]
+expect_column_values_to_be_in_set,False,1.0,12.5,['UNKNOWN']
+expect_column_values_to_be_in_set,False,1.0,12.5,['PAK']
+expect_column_values_to_be_in_set,False,1.0,12.5,[False]
+expect_column_values_to_be_in_set,False,6.0,75.0,"[False, False, False, False, False, False]"
